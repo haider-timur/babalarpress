@@ -2,6 +2,7 @@ en:
   nav_home: "Home"
   nav_about: "About"
   nav_publications: "Publications"
+  nav_colophon: "Colophon"
   publications_title: "Publications"
   
   filter_all: "All"
@@ -10,6 +11,7 @@ en:
   filter_past: "Past"
 
   see_all: "see all publications →"
+  read_more: "read more →"
 
   digital: "Digital edition"
   print_digital: "Print + digital"
@@ -26,14 +28,15 @@ en:
   menu_label: "Menu"
   close_label: "Close"
 
-  contact: "Contact us"
+  contact: "Contact"
 
-  footer_text: "Qazaq experimental research, writing and publishing initiative for relearning, reclaiming and reimagining our ancestral knowledge(s)."
+  footer_text: "Through BABALAR PRESS, we want to create a space for our Qazaq voices, stories, and experiences. For the voices of our near and far, shared and personal ancestors. For training our voice muscles. For realizing and celebrating the value, beauty and power of our voices and stories. For experimenting with, documenting and sharing our voices."
 
 kz:
   nav_home: "Басты бет"
   nav_about: "Біз жайлы"
   nav_publications: "Басылымдар"
+  nav_colophon: "Колофон"
   publications_title: "Басылымдар"
 
   filter_all: "Барлық"
@@ -42,6 +45,7 @@ kz:
   filter_past: "Өткен"
 
   see_all: "толығырақ көру →"
+  read_more: "ары қарай оқу →"
 
   digital: "Цифрлық нұсқа"
   print_digital: "Баспа + цифрлық нұсқа"
@@ -58,14 +62,15 @@ kz:
   menu_label: "Меню"
   close_label: "Жабу"
 
-  contact: "Contact us"
+  contact: "Бізге жазыңыз"
 
-  footer_text: "Бабаларымыздан қалған білімді зерттеп, түсіну және (қайта) қарауға бағытталған қазақ эксперименттік зерттеу, жазу және басылым бастамасы."
+  footer_text: "BALALAR PRESS арқылы дауыстарымыз, хикаяларымыз бен тәжірибелеріміз үшін орта құруды көздейміз. Біздің алыс және жақын ата-бабаларымыздың дауыстарын, әңгімелерін/хикаяларын және білімдерінe бағытталған орта. Дауыс желбезектерімізді жаттықтыратын орта. Үнімізді табу үшін, оны ашық түрде жеткізу үшін; хикаяларымыздың құндылығын, әдемілігін қабылдау үшін құрылған орта. Дауыстарымызды естіртіп, экспериментке салып, құжаттауға арналған орта."
 
 ru:
   nav_home: "Главная"
   nav_about: "О нас"
   nav_publications: "Публикации"
+  nav_colophon: "Колофон"
   publications_title: "Публикации"
 
   filter_all: "Все"
@@ -74,6 +79,7 @@ ru:
   filter_past: "Предыдущие"
 
   see_all: "ко всем публикациям →"
+  read_more: "читать далее →"
 
   digital: "Цифровое издание"
   print_digital: "Печатная + цифровая версия"
@@ -90,6 +96,6 @@ ru:
   menu_label: "Меню"
   close_label: "Закрыть"
 
-  contact: "Contact us"
+  contact: "Связаться"
 
-  footer_text: "Казахстанская экспериментальная исследовательская, писательская и издательская инициатива для (пере)осмысления и возвращения себе знаний наших предков."
+  footer_text: "Через BABALAR PRESS, мы хотим создать пространство для наших казахстанских голосов, историй и опытов. Пространство для голосов наших далеких и близких, общих и личных бабалар. Пространство для тренировки наших голосовых мышц. Для осознания и признания ценности, красоты и силы наших голосов и историй. Пространство, чтобы документировать, экспериментировать и делиться нашими голосами."

@@ -1,20 +1,20 @@
 <footer class="site-footer">
-  <div class="footer-col footer-col-newsletter">
 
-      <div class="footer-col footer-col-text">
-            <p>{{ site.data.translations[page.lang].footer_text }}</p>
-        </div>
+  <div class="footer-col footer-col-text">
+    <p>{{ site.data.translations[page.lang].footer_text }}</p>
+  </div>
 
-     <div class="footer-links">
-      <a href="https://www.instagram.com/babalarpress/">Instagram</a>
-    </div>
+  <div class="footer-col footer-col-links">
+    <a href="/{{ page.lang }}/support">{{ site.data.translations[page.lang].nav_support }}</a>
+    <a href="/{{ page.lang }}/colophon">{{ site.data.translations[page.lang].nav_colophon }}</a>
   </div>
 
   <div class="footer-col footer-col-links">
     <a href="mailto:info@babalarpress.com">{{ site.data.translations[page.lang].contact }}</a>
-     <a href="https://www.instagram.com/babalarpress/">Instagram</a>
+    <a href="https://www.instagram.com/babalarpress/">Instagram</a>
   </div>
 
+  <div class="footer-col footer-col-newsletter">
     <section class="newsletter">
       <p>{{ site.data.translations[page.lang].newsletter_title }}</p>
       <form
@@ -32,5 +32,6 @@
         <button type="submit"><p>{{ site.data.translations[page.lang].newsletter_button }}</p></button>
       </form>
     </section>
+  </div>
 
 </footer>
