@@ -1,0 +1,95 @@
+en:
+  nav_home: "Home"
+  nav_about: "About"
+  nav_publications: "Publications"
+  publications_title: "Publications"
+  
+  filter_all: "All"
+  filter_current: "Current"
+  filter_upcoming: "Upcoming"
+  filter_past: "Past"
+
+  see_all: "see all publications →"
+
+  digital: "Digital edition"
+  print_digital: "Print + digital"
+  custom_amount: "Enter custom amount"
+  download: "Support and download"
+  buy: "Contribute and add to cart"
+
+  newsletter_button: "sign up"
+  newsletter_title: "Sign up for our newsletter"
+  newsletter_placeholder: "email address"
+
+  nav_support: "Support us"
+
+  menu_label: "Menu"
+  close_label: "Close"
+
+  contact: "Contact us"
+
+  footer_text: "Qazaq experimental research, writing and publishing initiative for relearning, reclaiming and reimagining our ancestral knowledge(s)."
+
+kz:
+  nav_home: "Басты бет"
+  nav_about: "Біз жайлы"
+  nav_publications: "Басылымдар"
+  publications_title: "Басылымдар"
+
+  filter_all: "Барлық"
+  filter_current: "Қазіргі"
+  filter_upcoming: "Жақында"
+  filter_past: "Өткен"
+
+  see_all: "толығырақ көру →"
+
+  digital: "Цифрлық нұсқа"
+  print_digital: "Баспа + цифрлық нұсқа"
+  custom_amount: "Өз соманы енгізіңіз"
+  download: "Үлесімен жүктеп алу"
+  buy: "Қолдауымен себетке салу"
+
+  newsletter_button: "жазылу"
+  newsletter_title: "Ақпараттарымызға жазылсаңыз"
+  newsletter_placeholder: "имэйл"
+
+  nav_support: "Қолдау көрсету"
+
+  menu_label: "Меню"
+  close_label: "Жабу"
+
+  contact: "Contact us"
+
+  footer_text: "Бабаларымыздан қалған білімді зерттеп, түсіну және (қайта) қарауға бағытталған қазақ эксперименттік зерттеу, жазу және басылым бастамасы."
+
+ru:
+  nav_home: "Главная"
+  nav_about: "О нас"
+  nav_publications: "Публикации"
+  publications_title: "Публикации"
+
+  filter_all: "Все"
+  filter_current: "Последний выпуск"
+  filter_upcoming: "Предстоящие"
+  filter_past: "Предыдущие"
+
+  see_all: "ко всем публикациям →"
+
+  digital: "Цифровое издание"
+  print_digital: "Печатная + цифровая версия"
+  custom_amount: "Введите свою сумму"
+  download: "Внести вклад и скачать"
+  buy: "Поддержать и добавить в корзину"
+
+  newsletter_button: "подписаться"
+  newsletter_title: "Подписывайтесь на нашу рассылку"
+  newsletter_placeholder: "имэйл адрес"
+
+  nav_support: "Оказать поддержку"
+
+  menu_label: "Меню"
+  close_label: "Закрыть"
+
+  contact: "Contact us"
+
+  footer_text: "Казахстанская экспериментальная исследовательская, писательская и издательская инициатива для (пере)осмысления и возвращения себе знаний наших предков."

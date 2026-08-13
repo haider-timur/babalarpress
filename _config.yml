@@ -1,9 +1,9 @@
 title: Babalar Press
 description: Publication
 baseurl: ""
-url: ""
+url: "https://babalarpress.com"
 
 collections:
-  projects:
+  publications:
     output: true
-    permalink: /projects/:name/
+    permalink: /:collection/:path/

@@ -1,0 +1,18 @@
+<section class="publications">
+  <h2>{{ site.data.translations[page.lang].publications_title }}</h2>
+  <div class="publications-grid">
+    {% assign pubs = site.publications | where: "lang", page.lang | sort: "date" | reverse %}
+    {% for pub in pubs limit: 3 %}
+      <a href="{{ pub.url }}" class="publication-card" data-status="{{ pub.status }}">
+            <div class="pub-thumb">
+                <img src="{{ pub.images[0].src | relative_url }}" alt="{{ pub.images[0].alt | default: pub.title }}">
+                <div class="pub-hover-title">
+                <span>{{ pub.title }}</span>
+                </div>
+            </div>
+            
+            </a>
+    {% endfor %}
+  </div>
+  <a href="/{{ page.lang }}/publications" class="see-all-link">{{ site.data.translations[page.lang].see_all }}</a>
+</section>

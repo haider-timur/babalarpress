@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <div class="footer-col footer-col-newsletter">
+
+      <div class="footer-col footer-col-text">
+            <p>{{ site.data.translations[page.lang].footer_text }}</p>
+        </div>
+
+     <div class="footer-links">
+      <a href="https://www.instagram.com/babalarpress/">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-col footer-col-links">
+    <a href="mailto:info@babalarpress.com">{{ site.data.translations[page.lang].contact }}</a>
+     <a href="https://www.instagram.com/babalarpress/">Instagram</a>
+  </div>
+
+    <section class="newsletter">
+      <p>{{ site.data.translations[page.lang].newsletter_title }}</p>
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSd_oyhfaslq3moYRNjiBaCFAM_gooCs1Lk7x0zr5ABOZQq-wA/formResponse"
+        method="POST"
+        target="_blank"
+        class="newsletter-form"
+      >
+        <input
+          type="email"
+          name="entry.123456789"
+          placeholder="{{ site.data.translations[page.lang].newsletter_placeholder }}"
+          required
+        >
+        <button type="submit"><p>{{ site.data.translations[page.lang].newsletter_button }}</p></button>
+      </form>
+    </section>
+
+</footer>

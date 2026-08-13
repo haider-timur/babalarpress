@@ -1,0 +1,117 @@
+---
+layout: default
+---
+<article class="publication-detail">
+  <h1>{{ page.title }}</h1>
+  <p class="pub-date">{{ page.date | date: "%B %Y" }}</p>
+
+  <div class="pub-layout">
+
+    <!-- LEFT COLUMN: gallery -->
+    <div class="pub-gallery-col">
+      {% if page.images %}
+        <div class="pub-gallery">
+          <figure class="pub-main-image">
+            <img src="{{ page.images[0].src | relative_url }}" alt="{{ page.images[0].alt }}">
+          </figure>
+          {% if page.images.size > 1 %}
+            <div class="pub-thumbs">
+              {% for img in page.images %}
+                <img src="{{ img.src | relative_url }}" alt="{{ img.alt }}" class="pub-thumb-item {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- RIGHT COLUMN: text + purchase -->
+    <div class="pub-info-col">
+      <div class="pub-body">
+        {{ content }}
+      </div>
+
+      <div class="publication-purchase">
+
+        <!-- DIGITAL -->
+        <section class="purchase-option purchase-digital">
+          <h2>{{ site.data.translations[page.lang].digital }}</h2>
+
+          <div class="price-list" data-target="digital-price">
+                {% for price in page.snipcart.digital.prices %}
+                    <button type="button" class="price-option" data-price="{{ price }}">
+                    ${{ price }}
+                    </button>
+                {% endfor %}
+                </div>
+
+          <button type="button" id="digital-buy-button" class="purchase-button" data-selected-price="{{ page.snipcart.digital.prices | first }}">
+            {{ site.data.translations[page.lang].download }}
+          </button>
+
+          <div id="digital-snipcart-products" style="display:none;">
+            {% for price in page.snipcart.digital.prices %}
+              <button
+                id="digital-product-{{ price }}"
+                class="snipcart-add-item"
+                data-item-id="{{ page.snipcart_product_id }}-{{ page.lang }}-digital-{{ price }}"
+                data-item-name="{{ page.snipcart.digital.name }}"
+                data-item-price="{{ price }}"
+                data-item-description="{{ page.snipcart.digital.description }}"
+                data-item-url="{{ page.url | absolute_url }}"
+                data-item-file-guid="{{ page.snipcart.digital.file_guid }}"
+                data-item-shippable="false"
+              >
+                {{ site.data.translations[page.lang].download }}
+              </button>
+            {% endfor %}
+          </div>
+        </section>
+
+        <!-- PRINT + DIGITAL -->
+        <section class="purchase-option purchase-print">
+          <h2>{{ site.data.translations[page.lang].print_digital }}</h2>
+
+          <div class="price-list" data-target="print-price">
+            {% for price in page.snipcart.print.prices %}
+                <button type="button" class="price-option" data-price="{{ price }}">
+                ${{ price }}
+                </button>
+            {% endfor %}
+            </div>
+
+          <button type="button" id="print-buy-button" class="purchase-button" data-selected-price="{{ page.snipcart.print.prices | first }}">
+            {{ site.data.translations[page.lang].buy }}
+          </button>
+
+          <div id="print-snipcart-products" style="display:none;">
+            {% for price in page.snipcart.print.prices %}
+              <button
+                id="print-product-{{ price }}"
+                class="snipcart-add-item"
+                data-item-id="{{ page.snipcart_product_id }}-{{ page.lang }}-print-{{ price }}"
+                data-item-name="{{ page.snipcart.print.name }}"
+                data-item-price="{{ price }}"
+                data-item-description="{{ page.snipcart.print.description }}"
+                data-item-url="{{ page.url | absolute_url }}"
+                data-item-file-guid="{{ page.snipcart.print.file_guid }}"
+                data-item-shippable="true"
+              >
+                {{ site.data.translations[page.lang].buy }}
+              </button>
+            {% endfor %}
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+</article>
+
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close" id="lightbox-close">&times;</span>
+  <span class="lightbox-arrow lightbox-prev" id="lightbox-prev">&#10094;</span>
+  <img src="" alt="" id="lightbox-img">
+  <span class="lightbox-arrow lightbox-next" id="lightbox-next">&#10095;</span>
+</div>
