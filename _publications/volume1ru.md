@@ -8,7 +8,7 @@ date: 2026-01-01
 snipcart:
   digital:
     id: volume1-ru-digital
-    name: Volume 1 — Digital
+    name: Выпуск 1 - цифровая версия
     url: https://babalarpress.com/volume1ru/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:
@@ -19,7 +19,7 @@ snipcart:
 
   print:
     id: volume1-ru-print
-    name: Volume 1 — Print + Digital
+    name: Выпуск 1 - цифровая и печатная версии
     url: https://babalarpress.com/volume1ru/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:
@@ -32,13 +32,13 @@ snipcart:
 images: 
     - src: /assets/images/signal-2026-08-10-160518.png
       alt: ""
-      caption: Print
+      caption: Печатная версии
     - src: /assets/images/signal-2026-08-10-160510.jpeg
       alt: ""
-      caption: Digital version preview
+      caption: Цифровая версия
     - src: /assets/images/signal-2026-08-10-160545.jpeg
       alt: ""
-      caption: Digital version preview
+      caption: Цифровая версия
 
 ---
 

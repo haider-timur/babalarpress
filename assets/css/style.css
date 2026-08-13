@@ -66,7 +66,7 @@ header {
   align-items: center;
   gap: 8px;
   background: #f1ff78;
-  width: 80px;
+  width: 85px;
   color: #49352f;
   padding: 8px 8px;
   cursor: pointer;
@@ -80,7 +80,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 24px;      
+  width: 18px;      
   height: 12px;   
   cursor: pointer;  
 }
@@ -178,11 +178,11 @@ header {
   }
 
   .menu-toggle-icon {
-  width: 18px;      
+  width: 17px;      
     }
 
     .menu-toggle {
-    width: 75px;
+    width: 85px;
   }
 }
 
@@ -239,7 +239,7 @@ header {
 
   .content p {
   margin-right: 0;
-  font-size: 1rem;
+  font-size: 1.05rem;
   }
 
   .lang-switcher {
@@ -315,7 +315,7 @@ header {
 .footer-col-links a {
   color: #49352f;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .footer-col-text p {
@@ -482,6 +482,24 @@ header {
   max-width: 200px;  
   padding: 8px 12px;
   border: none;
+  outline: none; !important;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #49352f;
+}
+
+.newsletter-form input::placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.newsletter-form input::-webkit-input-placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.newsletter-form input::-moz-placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.newsletter-form input:focus {
+  outline: none; !important;
 }
 
 .newsletter-form button {
@@ -638,9 +656,9 @@ header {
   color: var(--text-color); 
   border: none;
   background: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-family: inherit;
-  line-height: 1.2;
+  line-height: 1;
   width: auto;
   height: auto;
   padding: 10px 20px;
@@ -661,7 +679,7 @@ header {
   background: transparent;
   color: #49352f;
   font-family: inherit;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   cursor: pointer;
   border-radius: 20px;
   transition: text-shadow 0.15s ease;
