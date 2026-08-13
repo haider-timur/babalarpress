@@ -71,7 +71,7 @@ header {
   padding: 8px 16px;
   cursor: pointer;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 1rem;
   white-space: nowrap;
   border: none;
 }
@@ -120,7 +120,7 @@ header {
   background: none;
   border: none;
   color: #49352f;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1;
   cursor: pointer;
@@ -147,7 +147,7 @@ header {
   }
 
   .menu-toggle-label {
-    font-size: 15px;
+    font-size: 1rem;
   }
 }
 
@@ -180,7 +180,7 @@ header {
 
 .content p {
   margin-right: 12em;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .lang-switcher {
