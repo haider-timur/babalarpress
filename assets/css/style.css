@@ -385,7 +385,7 @@ header {
 .play {
   width: 200px;
   position: absolute;
-  z-index: 30;
+  z-index: 50;
 }
 
 .play img {
