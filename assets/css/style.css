@@ -312,7 +312,7 @@ header {
   .site-footer {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 1.5rem;
+    padding: 1.1rem;
     padding-bottom: 4rem;
   }
 }
