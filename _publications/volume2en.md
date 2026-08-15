@@ -1,14 +1,14 @@
 ---
 layout: publication
 lang: en
-title: "Volume 1"
-ref: volume1
-status: current
-date: 2026-01-01
+title: "Volume 2"
+ref: volume2
+status: upcoming
+date: 2026-03-01
 snipcart:
   digital:
-    id: volume1-en-digital
-    name: Volume 1 — Digital
+    id: volume2-en-digital
+    name: Volume 2 — Digital
     url: https://babalarpress.com/volume1en/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:
@@ -18,8 +18,8 @@ snipcart:
       - 50
 
   print:
-    id: volume1-en-print
-    name: Volume 1 — Print + Digital
+    id: volume2-en-print
+    name: Volume 2 — Print + Digital
     url: https://babalarpress.com/volume1en/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:
@@ -30,7 +30,7 @@ snipcart:
       - 100
 
 images: 
-    - src: /assets/images/print_vol1.png
+    - src: /assets/images/vol2example.png
       alt: ""
       caption: Print
     - src: /assets/images/signal-2026-08-10-160510.jpeg

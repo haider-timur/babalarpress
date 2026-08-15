@@ -3,7 +3,6 @@ layout: default
 ---
 <article class="publication-detail">
   <h1>{{ page.title }}</h1>
-  <p class="pub-date">{{ page.date | date: "%B %Y" }}</p>
 
   <div class="pub-layout">
 
@@ -27,8 +26,8 @@ layout: default
 
     <!-- RIGHT COLUMN: text + purchase -->
     <div class="pub-info-col">
-      <div class="pub-body">
-        {{ content }}
+      <div class="price-info">
+        {{ site.data.translations[page.lang].price_info }}
       </div>
 
       <div class="publication-purchase">
@@ -106,6 +105,10 @@ layout: default
       </div>
     </div>
 
+  </div>
+
+  <div class="pub-description">
+  {{ content }}
   </div>
 </article>
 

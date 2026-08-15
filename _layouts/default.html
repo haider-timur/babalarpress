@@ -55,9 +55,7 @@
     </nav>
   </div>
 
-    <main class="content">
-
-      <!--lang switcher-->
+  <!--lang switcher-->
       {% assign langs = "ru,en,kz" | split: "," %}
             <div class="lang-switcher">
             {% for l in langs %}
@@ -82,6 +80,9 @@
                 <span class="snipcart-items-count"></span>
             </div>
             </div>
+
+    <main class="content">
+
 
       {{ content }}
 

@@ -1,13 +1,13 @@
 ---
 layout: publication
 lang: kz
-title: "Бірінші басылым"
-ref: volume1
-status: current
-date: 2026-01-01
+title: "Екінші басылым"
+ref: volume2
+status: upcoming
+date: 2026-03-01
 snipcart:
   digital:
-    id: volume1-kz-digital
+    id: volume2-kz-digital
     name: Бірінші басылым - цифрлық
     url: https://babalarpress.com/volume1kz/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
@@ -18,7 +18,7 @@ snipcart:
       - 50
 
   print:
-    id: volume1-kz-print
+    id: volume2-kz-print
     name: Бірінші басылым - баспа + цифрлық  
     url: https://babalarpress.com/volume1kz/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
@@ -30,7 +30,7 @@ snipcart:
       - 100
 
 images: 
-    - src: /assets/images/print_vol1.png
+    - src: /assets/images/vol2example.png
       alt: ""
       caption: Баспа 
     - src: /assets/images/signal-2026-08-10-160510.jpeg

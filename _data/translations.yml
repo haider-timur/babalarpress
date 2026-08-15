@@ -15,7 +15,6 @@ en:
 
   digital: "Digital edition"
   print_digital: "Print + digital"
-  custom_amount: "Enter custom amount"
   download: "Support and download"
   buy: "Contribute and add to cart"
 
@@ -29,6 +28,10 @@ en:
   close_label: "Close"
 
   contact: "Contact"
+
+  price_info: "Our pricing works like this: lorem ipsum. lorem ipsum lorem ipsum lorem ipsum"
+
+  announcement: "Volume 1 is here and available for pre-order! Order a digital version or a Print + Digital bundle. For pricing click on the publication and check how it works."
 
   footer_text: "Through BABALAR PRESS, we want to create a space for our Qazaq voices, stories, and experiences. For the voices of our near and far, shared and personal ancestors. For training our voice muscles. For realizing and celebrating the value, beauty and power of our voices and stories. For experimenting with, documenting and sharing our voices."
 
@@ -49,7 +52,6 @@ kz:
 
   digital: "Цифрлық нұсқа"
   print_digital: "Баспа + цифрлық нұсқа"
-  custom_amount: "Өз соманы енгізіңіз"
   download: "Үлесімен жүктеп алу"
   buy: "Қолдауымен себетке салу"
 
@@ -63,6 +65,10 @@ kz:
   close_label: "Жабу"
 
   contact: "Бізге жазыңыз"
+
+  price_info: "Our pricing works like this: lorem ipsum."
+
+  announcement: "Volume 1 is here and available for pre-order! Order a digital version or a Print + Digital bundle. For pricing click on the publication and check how it works."
 
   footer_text: "BALALAR PRESS арқылы дауыстарымыз, хикаяларымыз бен тәжірибелеріміз үшін орта құруды көздейміз. Біздің алыс және жақын ата-бабаларымыздың дауыстарын, әңгімелерін/хикаяларын және білімдерінe бағытталған орта. Дауыс желбезектерімізді жаттықтыратын орта. Үнімізді табу үшін, оны ашық түрде жеткізу үшін; хикаяларымыздың құндылығын, әдемілігін қабылдау үшін құрылған орта. Дауыстарымызды естіртіп, экспериментке салып, құжаттауға арналған орта."
 
@@ -83,7 +89,6 @@ ru:
 
   digital: "Цифровое издание"
   print_digital: "Печатная + цифровая версия"
-  custom_amount: "Введите свою сумму"
   download: "Внести вклад и скачать"
   buy: "Поддержать и добавить в корзину"
 
@@ -97,5 +102,9 @@ ru:
   close_label: "Закрыть"
 
   contact: "Связаться"
+
+  price_info: "Our pricing works like this: lorem ipsum."
+
+  announcement: "Volume 1 is here and available for pre-order! Order a digital version or a Print + Digital bundle. For pricing click on the publication and check how it works."
 
   footer_text: "Через BABALAR PRESS, мы хотим создать пространство для наших казахстанских голосов, историй и опытов. Пространство для голосов наших далеких и близких, общих и личных бабалар. Пространство для тренировки наших голосовых мышц. Для осознания и признания ценности, красоты и силы наших голосов и историй. Пространство, чтобы документировать, экспериментировать и делиться нашими голосами."
