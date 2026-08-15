@@ -382,6 +382,15 @@ header {
 
 }
 
+.play {
+  width: 200px;
+  position: absolute;
+  z-index: 30;
+}
+
+.play img {
+  width: 50%;
+}
 
 /* Pub filter */
 

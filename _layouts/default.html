@@ -84,6 +84,7 @@
 
     <main class="content">
 
+<div class="play" can-move><img src="/assets/images/stitches 2 copy 14.png"></div>
 
       {{ content }}
 
@@ -96,5 +97,12 @@
   <script src="{{ '/assets/js/pub-filter.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/snipcart.js' | relative_url }}"></script>
+
+   <!--playhtml-->
+<script type="module">
+  import { playhtml } from "https://unpkg.com/playhtml";
+  playhtml.init({ cursors: { enabled: true } });
+</script>
+
 </body>
 </html>
