@@ -1,6 +1,5 @@
 <section class="publications">
-  <div class="announcement">{{ site.data.translations[page.lang].announcement }}</div>
-  <div class="publications-grid">
+    <div class="publications-grid">
     {% assign pubs = site.publications | where: "lang", page.lang | sort: "date" | reverse %}
     {% for pub in pubs limit: 3 %}
       <a href="{{ pub.url }}" class="publication-card" data-status="{{ pub.status }}">
@@ -14,5 +13,6 @@
             </a>
     {% endfor %}
   </div>
-  <a href="/{{ page.lang }}/publications" class="see-all-link">{{ site.data.translations[page.lang].see_all }}</a>
+  
 </section>
+<a href="/{{ page.lang }}/publications" class="see-all-link">{{ site.data.translations[page.lang].see_all }}</a>

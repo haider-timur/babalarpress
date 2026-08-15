@@ -8,7 +8,7 @@ en:
   
   filter_all: "All"
   filter_current: "New"
-  filter_upcoming: "Forthcoming"
+  filter_upcoming: "Upcoming"
   filter_past: "Past"
 
   see_all: "see all publications →"

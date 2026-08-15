@@ -32,17 +32,17 @@ body:has(.publication-card:hover) {
 /* Desktop */
 
 .topbar {
-  position: fixed;
+ position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 75px;
+  height: 105px;   /* was 75px — increased to fit logo + announcement below it */
   z-index: 40;
   background-image: url('/assets/images/bp_stacked_logo.svg');
   background-repeat: repeat-x;
-  background-size: auto 100%;
-  background-position: left center;
-  border-bottom: 1px dotted #b3452f;
+  background-size: auto 85px;   /* logo keeps its original size */
+  background-position: left top;   /* logo sits at the top of the bar */
+  border-bottom: 1px dotted #49352f;
 }
 
 .topbar::after {
@@ -165,7 +165,7 @@ header {
     position: absolute;
     width: 180px;
     flex-shrink: 0;
-    padding-top: 120px; 
+    padding-top: 150px; 
     margin-left: 30px;
   }
 
@@ -231,7 +231,7 @@ header {
 .lang-switcher {
   position: absolute;
   flex-wrap: wrap;
-  top: 115px;
+  top: 145px;
   right: 32px;
   display: flex;
   justify-content: flex-end;
@@ -397,6 +397,10 @@ header {
   flex-wrap: wrap;
 }
 
+.filter-btn {
+  font-size: 1rem;
+}
+
 }
 
 .filter-btn {
@@ -406,7 +410,7 @@ header {
   color: #49352f;
   cursor: pointer;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .filter-btn.active {
@@ -433,10 +437,11 @@ header {
 
 .publications-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+  gap: 0px;
+  padding: 0rem 0px 0rem;
   justify-content: start;
-  margin-top: 16px;
+  border-left: 1px dotted #b3452f;
 }
 
 .see-all-link {
@@ -445,6 +450,7 @@ header {
   margin-top: 15px;
   text-decoration: none;
   color: #49352f;
+  font-size: 1rem;
 }
 
 .see-all-link:hover {
@@ -453,8 +459,8 @@ header {
 }
 
 .publications {
-  border-top: 1px dotted #b3452f;
   margin-top: 2rem;
+  padding: 0rem 0px 0rem;
 }
 
 
@@ -462,7 +468,13 @@ header {
   text-decoration: none;
   color: inherit;
   display: block;
-  background: radial-gradient(ellipse at center, #b3452f 0%, rgba(73, 53, 47, 0) 50%);
+  background: #eee;
+  border-right: 1px dotted #b3452f;
+  border-bottom: 1px dotted #b3452f;
+}
+
+.publication-card:hover {
+  background: #f1ff78;
 }
 
 
@@ -475,12 +487,17 @@ header {
 
 @media (max-width: 768px) {
 
+  .publications {
+  margin-top: 2rem;
+  padding: 0rem 0px 0rem;
+}
+
   .publications-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 5px;
+  gap: 0px;
   justify-content: start;
-  margin-top: 16px;
+  padding: 0rem 0px 0rem;
 }
 
  .pub-thumb {
@@ -572,7 +589,8 @@ header {
 }
 
 .newsletter p {
-    margin: 0;  
+    margin: 0;
+    line-height: 1;  
 }
 
 
@@ -737,15 +755,22 @@ header {
 }
 
 .announcement {
+  position: absolute;
+  top: 85px; 
+  left: 0;
+  width: 100%;
+  padding: 0px 0px;
+  font-size: 1rem;
+  text-align: center;
   background: #b3452f;
   color: #fff;
-  margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
 
   .announcement {;
   margin-right: 0em;
+  padding: 0rem 0px 0rem;
 }
 
 }
