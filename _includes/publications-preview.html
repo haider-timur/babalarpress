@@ -1,5 +1,4 @@
 <section class="publications">
-  <h2>{{ site.data.translations[page.lang].publications_title }}</h2>
   <div class="announcement">{{ site.data.translations[page.lang].announcement }}</div>
   <div class="publications-grid">
     {% assign pubs = site.publications | where: "lang", page.lang | sort: "date" | reverse %}

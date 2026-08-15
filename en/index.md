@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: Home
+title: Babalar Press - Home
 ---
 
 <p class="intro"><strong>Qazaq experimental research, writing and publishing initiative for relearning, reclaiming and reimagining our ancestral knowledge(s).</strong></p>

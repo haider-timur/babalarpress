@@ -3,15 +3,21 @@ document.addEventListener("DOMContentLoaded", function () {
   function setupSnipcartHeaderHide() {
     Snipcart.events.on('theme.routechanged', function (routesChange) {
       const header = document.querySelector('header');
+      const menuWidget = document.getElementById('menu-widget');
+      const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
       if (routesChange.from === "/" && routesChange.to !== "/") {
         // cart opened
         header.classList.add('header-hidden');
+        if (isMobile) {
+          menuWidget.classList.add('menu-widget-hidden');
+        }
       }
 
       if (routesChange.from !== "/" && routesChange.to === "/") {
         // cart closed
         header.classList.remove('header-hidden');
+        menuWidget.classList.remove('menu-widget-hidden');
       }
     });
   }

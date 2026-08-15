@@ -1,14 +1,14 @@
 ---
 layout: publication
 lang: kz
-title: "Бірінші басылым"
+title: "Бірінші басылым. Бабалармен араласу"
 ref: volume1
 status: current
 date: 2026-01-01
 snipcart:
   digital:
     id: volume1-kz-digital
-    name: Бірінші басылым - цифрлық
+    name: Бірінші басылым. Бабалармен араласу - цифрлық
     url: https://babalarpress.com/volume1kz/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:
@@ -19,7 +19,7 @@ snipcart:
 
   print:
     id: volume1-kz-print
-    name: Бірінші басылым - баспа + цифрлық  
+    name: Бірінші басылым. Бабалармен араласу - баспа + цифрлық  
     url: https://babalarpress.com/volume1kz/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:

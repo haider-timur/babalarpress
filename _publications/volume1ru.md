@@ -1,14 +1,14 @@
 ---
 layout: publication
 lang: ru
-title: "Выпуск 1"
+title: "Выпуск 1. Араласу с предками"
 ref: volume1
 status: current
 date: 2026-01-01
 snipcart:
   digital:
     id: volume1-ru-digital
-    name: Выпуск 1 - цифровая версия
+    name: Выпуск 1. Араласу с предками  - цифровая версия
     url: https://babalarpress.com/volume1ru/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:
@@ -19,7 +19,7 @@ snipcart:
 
   print:
     id: volume1-ru-print
-    name: Выпуск 1 - цифровая и печатная версии
+    name: Выпуск 1. Араласу с предками - цифровая и печатная версии
     url: https://babalarpress.com/volume1ru/
     file_guid: "00d9b926-90bf-4c5e-b1c8-76062e7ecefd"
     prices:

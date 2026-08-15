@@ -3,11 +3,12 @@ en:
   nav_about: "About"
   nav_publications: "Publications"
   nav_colophon: "Colophon"
+  nav_philosophy: "Our philosophy"
   publications_title: "Publications"
   
   filter_all: "All"
-  filter_current: "Current"
-  filter_upcoming: "Upcoming"
+  filter_current: "New"
+  filter_upcoming: "Forthcoming"
   filter_past: "Past"
 
   see_all: "see all publications →"
@@ -20,6 +21,7 @@ en:
 
   newsletter_button: "sign up"
   newsletter_title: "Sign up for our newsletter"
+  name_placeholder: "name"
   newsletter_placeholder: "email address"
 
   nav_support: "Support us"
@@ -33,13 +35,14 @@ en:
 
   announcement: "Volume 1 is here and available for pre-order! Order a digital version or a Print + Digital bundle. For pricing click on the publication and check how it works."
 
-  footer_text: "Through BABALAR PRESS, we want to create a space for our Qazaq voices, stories, and experiences. For the voices of our near and far, shared and personal ancestors. For training our voice muscles. For realizing and celebrating the value, beauty and power of our voices and stories. For experimenting with, documenting and sharing our voices."
+  footer_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 kz:
   nav_home: "Басты бет"
   nav_about: "Біз жайлы"
   nav_publications: "Басылымдар"
   nav_colophon: "Колофон"
+  nav_philosophy: "Пәлсапамыз"
   publications_title: "Басылымдар"
 
   filter_all: "Барлық"
@@ -57,6 +60,7 @@ kz:
 
   newsletter_button: "жазылу"
   newsletter_title: "Ақпараттарымызға жазылсаңыз"
+  name_placeholder: "аты-жөніңіз"
   newsletter_placeholder: "имэйл"
 
   nav_support: "Қолдау көрсету"
@@ -70,13 +74,14 @@ kz:
 
   announcement: "Volume 1 is here and available for pre-order! Order a digital version or a Print + Digital bundle. For pricing click on the publication and check how it works."
 
-  footer_text: "BALALAR PRESS арқылы дауыстарымыз, хикаяларымыз бен тәжірибелеріміз үшін орта құруды көздейміз. Біздің алыс және жақын ата-бабаларымыздың дауыстарын, әңгімелерін/хикаяларын және білімдерінe бағытталған орта. Дауыс желбезектерімізді жаттықтыратын орта. Үнімізді табу үшін, оны ашық түрде жеткізу үшін; хикаяларымыздың құндылығын, әдемілігін қабылдау үшін құрылған орта. Дауыстарымызды естіртіп, экспериментке салып, құжаттауға арналған орта."
+  footer_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ru:
   nav_home: "Главная"
   nav_about: "О нас"
   nav_publications: "Публикации"
   nav_colophon: "Колофон"
+  nav_philosophy: "Философия"
   publications_title: "Публикации"
 
   filter_all: "Все"
@@ -94,6 +99,7 @@ ru:
 
   newsletter_button: "подписаться"
   newsletter_title: "Подписывайтесь на нашу рассылку"
+  name_placeholder: "ваше имя"
   newsletter_placeholder: "имэйл адрес"
 
   nav_support: "Оказать поддержку"
@@ -107,4 +113,4 @@ ru:
 
   announcement: "Volume 1 is here and available for pre-order! Order a digital version or a Print + Digital bundle. For pricing click on the publication and check how it works."
 
-  footer_text: "Через BABALAR PRESS, мы хотим создать пространство для наших казахстанских голосов, историй и опытов. Пространство для голосов наших далеких и близких, общих и личных бабалар. Пространство для тренировки наших голосовых мышц. Для осознания и признания ценности, красоты и силы наших голосов и историй. Пространство, чтобы документировать, экспериментировать и делиться нашими голосами."
+  footer_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."

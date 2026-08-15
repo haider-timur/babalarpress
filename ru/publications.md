@@ -21,7 +21,6 @@ title: Публикации
             <span>{{ pub.title }}</span>
             </div>
         </div>
-        <p class="pub-date">{{ pub.date | date: "%B %Y" }}</p>
         <span class="status-badge status-{{ pub.status }}">
         {% case pub.status %}
             {% when "current" %}{{ site.data.translations[page.lang].filter_current }}

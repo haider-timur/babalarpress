@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ru
-title: Главная
+title: Babalar Press - Главная
 ---
 
 

@@ -27,8 +27,6 @@
 
  {% include header.html %}
 
-  
-  <div class="layout">
     <!--menu-->
   <div class="menu-widget" id="menu-widget">
     <button
@@ -52,6 +50,7 @@
       <a href="/{{ page.lang }}/about">{{ site.data.translations[page.lang].nav_about }}</a>
       <a href="/{{ page.lang }}/publications">{{ site.data.translations[page.lang].nav_publications }}</a>
       <a href="/{{ page.lang }}/support">{{ site.data.translations[page.lang].nav_support }}</a>
+      <a href="/{{ page.lang }}/philosophy">{{ site.data.translations[page.lang].nav_philosophy }}</a>
     </nav>
   </div>
 
@@ -78,8 +77,10 @@
             <button class="snipcart-checkout cart-icon-button" aria-label="Cart">
                 🛒
                 <span class="snipcart-items-count"></span>
+                </button>
             </div>
             </div>
+
 
     <main class="content">
 
@@ -88,7 +89,7 @@
 
     
     </main>
-  </div>
+
        {% include newsletter.html %}
        {% include footer.html %}
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
