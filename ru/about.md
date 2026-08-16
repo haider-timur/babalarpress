@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ru
-title: О нас
+title: Babalar Press - О нас
 ---
 
 

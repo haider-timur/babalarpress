@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: kz
-title: Пәлсапамыз
+title: Babalar Press - Пәлсапамыз
 ---
 
 

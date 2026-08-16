@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: About
+title: About Babalar Press
 ---
 
 

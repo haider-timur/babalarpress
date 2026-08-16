@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: kz
-title: Басылымдар
+title: Babalar Press - Басылымдар
 ---
 
 <div class="pub-filters">

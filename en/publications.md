@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: Publications
+title: Babalar Press - Publications
 ---
 
 <div class="pub-filters">

@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: Colophon
+title: Babalar Press - Colophon
 ---
 
 Colophon

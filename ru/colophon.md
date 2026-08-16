@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ru
-title: Колофон
+title: Babalar Press - Колофон
 ---
 
 Колофон

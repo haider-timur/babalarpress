@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ru
-title: Публикации
+title: Babalar Press - Публикации
 ---
 
 <div class="pub-filters">

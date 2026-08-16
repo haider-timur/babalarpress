@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ru
-title: Философия
+title: Babalar Press - Философия
 ---
 
 

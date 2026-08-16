@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: kz
-title: Қолдау көрсет
+title: Babalar Press - Қолдау көрсет
 ---
 
 Қолдау көрсет

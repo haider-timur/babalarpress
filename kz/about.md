@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: kz
-title: Біз жайлы
+title: Babalar Press жайлы
 ---
 
 

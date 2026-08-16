@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ru
-title: Поддержите нас
+title: Поддержите Babalar Press
 ---
 
 Оказать поддержку

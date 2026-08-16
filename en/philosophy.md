@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: Philosophy
+title: Babalar Press - Philosophy
 ---
 
 <section class="philosophy-block">

@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: kz
-title: Колофон
+title: Babalar Press - Колофон
 ---
 
 Колофон
