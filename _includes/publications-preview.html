@@ -8,8 +8,15 @@
                 <div class="pub-hover-title">
                 <span>{{ pub.title }}</span>
                 </div>
+                
             </div>
-            
+            <span class="status-badge status-{{ pub.status }}">
+            {% case pub.status %}
+                {% when "current" %}{{ site.data.translations[page.lang].filter_current }}
+                {% when "upcoming" %}{{ site.data.translations[page.lang].filter_upcoming }}
+                {% when "past" %}{{ site.data.translations[page.lang].filter_past }}
+            {% endcase %}
+            </span>
             </a>
     {% endfor %}
   </div>
