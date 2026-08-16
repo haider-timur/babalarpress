@@ -709,6 +709,11 @@ margin-top: 3rem;
 
 /* Pub page */
 
+.publication-detail {
+  margin-top: 60px;
+}
+
+
 .publication-detail h1 {
  font-size: 3rem;
  font-weight: 300;
@@ -720,7 +725,6 @@ margin-top: 3rem;
   display: grid;
   grid-template-columns: 1fr 0.9fr;
   gap: 21px;
-  margin-top: 12px;
   align-items: start;
 }
 
@@ -728,6 +732,13 @@ margin-top: 3rem;
   .pub-layout {
     grid-template-columns: 1fr;
   }
+
+  .publication-detail {
+  margin-top: 90px;
+}
+
+
+
 }
 
 /* Gallery */
