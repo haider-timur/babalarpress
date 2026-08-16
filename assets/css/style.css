@@ -986,6 +986,38 @@ margin-top: 3rem;
 }
 
 
+.bufu {
+  display: table;
+  margin-left: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #49352f;
+  text-shadow: 0 0 4px #f1ff78, 0 0 4px #f1ff78, 0 0 4px #f1ff78; 
+}
+
+
+@media (max-width: 768px) {
+  .bufu {
+    margin-top: 20px;
+  }
+}
+
+
+.team p {
+  background: #eee;
+  font-size: 1rem;
+}
+
+.about-text {
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  font-size: 1rem;
+}
+
+
 .philosophy-visual {
   position: relative;
   width: 100%;
