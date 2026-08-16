@@ -5,6 +5,8 @@ title: Babalar Press - Главная
 ---
 
 
+<img src="/assets/images/bp_stacked_logo_diff-01.svg" alt="Babalar Press" id="mobile-topbar" class="mobile-topbar">
+
 <div class="intro"><p><strong>Казахстанская экспериментальная исследовательская, писательская и издательская инициатива для (пере)осмысления и возвращения себе знаний наших предков.</strong></p>
 
 <p>С помощью зинов, воркшопов и стипендиальных программ, BABALAR PRESS создает неформальные и заботливые пространства, в которых мы можем изучать, по-новому интерпретировать и делиться историями, знаниями и практиками наших общих и личных бабалар (каз. “предки”).</p>
@@ -13,5 +15,7 @@ title: Babalar Press - Главная
 </div>
 
 <a href="/{{ page.lang }}/about" class="read-more-link">{{ site.data.translations[page.lang].read_more }}</a>
+
+ <div class="play" can-move><img src="/assets/images/stitches2copy14publications-02.png"></div>
 
 {% include publications-preview.html %}
