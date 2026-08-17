@@ -81,7 +81,7 @@ body:has(.publication-card:hover) {
 .mobile-topbar {
 height: auto;
 width: 100%;
-margin-top: 3rem;
+margin-top: 2.5rem;
 }
 
 @media (max-width: 768px) {
@@ -192,7 +192,7 @@ margin-top: 3rem;
     position: absolute;
     width: 180px;
     flex-shrink: 0;
-    padding-top: 80px; 
+    padding-top: 70px; 
     margin-left: 30px;
   }
 
@@ -259,7 +259,7 @@ margin-top: 3rem;
 .lang-switcher {
   position: absolute;
   flex-wrap: wrap;
-  top: 70px;
+  top: 60px;
   right: 32px;
   display: flex;
   justify-content: flex-end;
@@ -351,7 +351,7 @@ margin-top: 3rem;
   gap: 50px;
   padding: 1.9rem;
   padding-bottom: 4rem;
-  background: #f1ff78;
+  background: #7a6f4e;
 }
 
 
@@ -363,20 +363,21 @@ margin-top: 3rem;
 }
 
 .footer-col-links a {
-  color: #49352f;
+  color: #fff;
   text-decoration: none;
   font-size: 1rem;
   line-height: 1;
 }
 
 .footer-col-links a:hover {
-  color: #b3452f;
+  color: #f1ff78;
 }
 
 .footer-col-text p {
   font-size: 1rem;
   margin: 0;   
   line-height: 1;
+  color: #fff;
 }
 
 
@@ -396,7 +397,7 @@ margin-top: 3rem;
 }
 
   .footer-col-links a {
-  color: #49352f;
+  color: #fff;
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -405,6 +406,7 @@ margin-top: 3rem;
   font-size: 0.9rem;
   line-height: 1;
   margin: 0;   
+  color: #fff;
 }
 
 }
@@ -603,13 +605,13 @@ margin-top: 3rem;
   width: 100%;
   padding: 8px 0px;
   border-top: none;
-  border-right: 1px dotted #49352f;
+  border-right: 1px dotted #fff;
   border-left: none;
-  border-bottom: 1px dotted #49352f;
+  border-bottom: 1px dotted #fff;
   outline: none;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
-  color: #49352f;
+  color: #ffffff8c;
   background: none;
 }
 
@@ -629,6 +631,7 @@ margin-top: 3rem;
 .newsletter p {
     margin: 0;
     line-height: 1;  
+    color: #fff;
 }
 
 
@@ -674,8 +677,8 @@ margin-top: 3rem;
     padding: 8px 0px;
     border-top: none;
   border-left: none;
-  border-right: 1px dotted #49352f;
-  border-bottom: 1px dotted #49352f;
+  border-right: 1px dotted #fff;
+  border-bottom: 1px dotted #fff;
   }
 
   .newsletter-form input::placeholder {
@@ -999,7 +1002,7 @@ margin-top: 3rem;
 .bufu {
   display: table;
   margin-left: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   text-decoration: none;
   font-size: 0.9rem;
   color: #49352f;
@@ -1019,9 +1022,6 @@ margin-top: 3rem;
   font-size: 1rem;
 }
 
-.about-text {
-  margin-bottom: 2rem;
-}
 
 .about-text p {
   font-size: 1rem;
@@ -1053,11 +1053,16 @@ margin-top: 3rem;
   font-size: 1.2rem;
 }
 
+.philosophy-text p {
+  font-size: 1rem;
+}
+
 .philosophy-block {
   display: grid;
   grid-template-columns: 300px 1fr;
-  gap: 10px 100px;
+  gap: 10px 150px;
   align-items: center;
+  margin-top: 60px;
 }
 
 
@@ -1066,6 +1071,7 @@ margin-top: 3rem;
     grid-template-columns: 1fr;   
     gap: 0px 0px;
     justify-items: center;
+    margin-top: 60px;
   }
 
 
@@ -1073,17 +1079,21 @@ margin-top: 3rem;
   margin-left: 0px;
 }
 
+.philosophy-text {
+  margin-bottom: 2rem;
+}
+
 }
 
 
 
-.pattern {
+.submark {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
 }
 
-.pattern img {
+.submark img {
   width: 100%;
   height: auto;
   display: block;
@@ -1093,7 +1103,7 @@ margin-top: 3rem;
 .about-visual {
   display: grid;
   grid-template-columns: 500px 1fr;
-  gap: 10px 10px;
+  gap: 10px 50px;
   align-items: center;
   margin-top: 2rem;
 }
@@ -1102,7 +1112,8 @@ margin-top: 3rem;
 @media (max-width: 768px) {
   .about-visual {
     grid-template-columns: 1fr;   
-    gap: 0px 0px;
+    gap: 10px 0px;
+    margin-top: 4.5rem;
   }
 
 
