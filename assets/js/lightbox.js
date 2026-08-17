@@ -1,5 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
   const lightbox = document.getElementById('lightbox');
+  if (lightbox) {
+    document.body.appendChild(lightbox);
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
   const closeBtn = document.getElementById('lightbox-close');
   const prevBtn = document.getElementById('lightbox-prev');
