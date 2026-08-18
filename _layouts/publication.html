@@ -2,6 +2,17 @@
 layout: default
 ---
 <article class="publication-detail">
+  <svg width="0" height="0">
+  <filter id="text-outline">
+    <feMorphology in="SourceAlpha" result="dilated" operator="dilate" radius="4" />
+    <feFlood flood-color="#b3452f" result="outline-color" />
+    <feComposite in="outline-color" in2="dilated" operator="in" result="outline" />
+    <feMerge>
+      <feMergeNode in="outline" />
+      <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+  </svg>
   <h1>{{ page.title }}</h1>
 
   <div class="pub-layout">

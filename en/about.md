@@ -6,7 +6,7 @@ title: About Babalar Press
 
 
 <div class="about-visual">
-<div class="pattern"><img src="/assets/images/bp_submark_logo_poppy-2.svg"></div>
+<div class="submark"><img src="/assets/images/bp_submark_logo_poppy-2.svg"></div>
 <div class="about-text">
 <p>We often say that our country is home to people of many different cultural and ethnic backgrounds. What is not voiced often enough is how many of us, in all our differences – as a result of colonial rule by russian empire and soviet union, with their politics of mass deportations, repressions, genocide and erasure of indigenous identities and peoples – bear the shared trauma of being cut off from the worlds, knowledges, languages and practices of our ancestors.</p>
 
