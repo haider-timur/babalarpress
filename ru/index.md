@@ -15,6 +15,8 @@ title: Babalar Press - Главная
 
 <a href="/{{ page.lang }}/about" class="read-more-link">{{ site.data.translations[page.lang].read_more }}</a>
 
- <div class="play" can-move><img src="/assets/images/stitches2copy14publications-02.png"></div>
+<div id="play-bounds" style="position: relative; width: 100%; height: 80px;"> 
+<div class="play" can-move can-move-bounds="play-bounds" can-move-bounds-min-visible="0.5" can-move-bounds-min-visible-px="0">
+<img src="/assets/images/stitches2copy14publications-01.png"></div></div>
 
 {% include publications-preview.html %}
