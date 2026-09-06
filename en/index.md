@@ -10,8 +10,6 @@ title: Babalar Press - Home
 
 <p>Through zines, workshops and research fellowships, BABALAR PRESS creates informal & caring spaces for us to engage with, reinterpret & share the stories, knowledges and practices of our collective and personal babalar (qazaq for “ancestors”).</p>
 
-<p>We often say that our country is home to people of many different cultural and ethnic backgrounds. What is not voiced often enough is how many of us, in all our differences – as a result of colonial rule by russian empire and soviet union, with their politics of mass deportations, repressions, genocide and erasure of indigenous identities and peoples – bear the shared trauma of being cut off from the worlds, knowledges, languages and practices of our ancestors.</p>
-
 <a href="/{{ page.lang }}/about" class="read-more-link">{{ site.data.translations[page.lang].read_more }}</a>
 
 <div id="play-bounds" style="position: relative; width: 100%; height: 50px;"> 
